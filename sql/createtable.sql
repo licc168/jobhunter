@@ -10,3 +10,13 @@ create table `JobInfo` (
   key `ix_source` (`source`),
   unique key `un_ix_url_md5` (`urlMd5`)
 ) default charset 'utf8' ENGINE='innodb';
+
+CREATE TABLE `wsy` (
+  `id` bigint(8) NOT NULL AUTO_INCREMENT,
+  `name` varchar(500) DEFAULT NULL,
+  `privew_num` int(8) DEFAULT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `up_time` date DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=175817 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
