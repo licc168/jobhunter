@@ -16,9 +16,9 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://192.168.1.153:8096/dev_jaicenter?characterEncoding=UTF-8" />
-        <property name="username" value="jai_dev" />
-        <property name="password" value="jai_2w9i5rc4en" />
+        <property name="url" value="jdbc:mysql://47.94.196.111:3306/lccf?characterEncoding=UTF-8" />
+        <property name="username" value="root" />
+        <property name="password" value="111111" />
     </bean>
 
 </beans>
