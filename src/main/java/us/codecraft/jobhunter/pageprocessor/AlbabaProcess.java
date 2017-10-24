@@ -162,18 +162,18 @@ public class AlbabaProcess implements PageProcessor {
         driver.findElement(By.id("fm-login-id")).clear();
 
         // 在******中填你的用户名
-        driver.findElement(By.id("fm-login-id")).sendKeys("liccwork@126.com");
+        driver.findElement(By.id("fm-login-id")).sendKeys("111111");
 
         driver.findElement(By.id("fm-login-password")).clear();
         // 在*******填你密码
-        driver.findElement(By.id("fm-login-password")).sendKeys("5998012+*~");
+        driver.findElement(By.id("fm-login-password")).sendKeys("11111~");
 
         // 模拟点击登录按钮
         driver.findElement(By.id("fm-login-submit")).click();
 
         // 获取cookie信息
         cookies = driver.manage().getCookies();
-        driver.close();
+       //driver.close();
 
     }
 
